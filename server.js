@@ -18,14 +18,15 @@ server.route({
     path: '/search',
     handler: function (request, reply) {
         var query = request.query.q.toUpperCase();
-        server.methods.search(query, function (err, result) {
+        server.methods.search(query, request.query.populate, function (err, result) {
             reply(result);
         });
     },
     config: {
         validate: {
             query: {
-                q: Joi.string().required()
+                q: Joi.string().required(),
+                populate: Joi.boolean()
             }
         }
     }
@@ -33,11 +34,16 @@ server.route({
 
 server.method({
     name: 'search',
-    method: function (query, next) {
+    method: function (query, full, next) {
         var results = [];
         Data.forEach(function (item) {
             if (item.name.toUpperCase().indexOf(query) !== -1) {
-                results.push(item.itemId);
+                if (full) {
+                    results.push(item);
+                } else {
+                    results.push(item.itemId);
+                }
+
             }
         });
         next(null, results);
