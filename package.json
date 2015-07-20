@@ -19,6 +19,7 @@
   "dependencies": {
     "hapi": "^8.8.0",
     "async": "^1.4.0",
-    "request": "^2.59.0"
+    "request": "^2.59.0",
+    "joi": "^6.5.0"
   }
 }

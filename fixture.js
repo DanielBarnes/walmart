@@ -27,13 +27,21 @@ var apiKey = 'kjybrqfdgp3u4yv2qzcnjndj';
 
 var data = []
 
-async.eachLimit(productIds, 1, function (id, cb) {
+async.eachLimit(productIds, 1, function _asyncItor(id, cb) {
     var url = util.format('http://api.walmartlabs.com/v1/items/%s?format=json&apikey=%s', id, apiKey);
     console.log ('requesting: %s', url);
     request.get(url, function (err, res, body) {
         if (err) return cb(err);
-        data.push(JSON.parse(body));
-        return cb();
+        body = JSON.parse(body);
+        if (body.errors) {
+            console.log('too fast waiting');
+            setTimeout(function () {
+                _asyncItor(id, cb);
+            }, 1000);
+        } else {
+            data.push(body);
+            return cb();
+        }
     });
 }, function (err) {
     if (err) {

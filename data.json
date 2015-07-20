@@ -165,14 +165,14 @@
         "categoryNode": "4044_103150_102547",
         "bundle": false,
         "preOrder": false,
-        "stock": "Not Available",
+        "stock": "Available",
         "attributes": {
             "size": "Queen"
         },
         "addToCartUrl": "http://c.affil.walmart.com/t/api01?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D14225187%7C1%26affp1%3D%7Capk%7C%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
         "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D14225187%257C1%2526affp1%253D%257Capk%257C%2526affilsrc%253Dapi",
         "freeShippingOver50Dollars": true,
-        "availableOnline": false
+        "availableOnline": true
     },
     {
         "itemId": 39082884,
@@ -334,12 +334,45 @@
         "availableOnline": true
     },
     {
-        "errors": [
-            {
-                "code": 403,
-                "message": "Account Over Queries Per Second Limit"
-            }
-        ]
+        "itemId": 19716431,
+        "parentItemId": 19716431,
+        "name": "Abu Garcia Black Max Bc Reel",
+        "salePrice": 37.49,
+        "upc": "036282921566",
+        "categoryPath": "Sports & Outdoors/Outdoor Sports/Fishing/Fishing Reels",
+        "shortDescription": "&lt;p&gt;The Abu Garcia Black Max Reel is designed for anglers who require durability and dependability from a fishing reel. The Abu Garcia Max Reel features seven stainless-steel ball bearings and 1 roller bearing, a machine double-anodized aluminum spool and a Power Disk drag system that provides smooth drag performance. The Abu Garcia Reel's compact bent handle and star, accompanied by a recessed foot reel, provide a more ergonomic design. This Abu Garcia Black Max Reel is offered in black with red and silver accents that will complement almost any fishing rod. The Abu Garcia Reel is precision engineered to provide a smoother feel and increased performance on the water.&lt;/p&gt;",
+        "longDescription": "&lt;p&gt;&lt;br&gt;&lt;strong&gt;Abu Garcia Black Max Reel:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Precision engineered with a smoother feel and increased performance on the water&lt;/li&gt;&lt;li&gt;7 stainless steel ball bearings and 1 roller bearing provide smooth operation&lt;/li&gt;&lt;li&gt;Machined double-anodized aluminum spool provides strength without adding excess weight&lt;/li&gt;&lt;li&gt;Power Disk drag system gives smooth drag performance&lt;/li&gt;&lt;li&gt;Compact bent handle and star provide a more ergonomic design&lt;/li&gt;&lt;li&gt;Recessed reel foot allows for a more ergonomic reel design&lt;/li&gt;&lt;li&gt;1-piece graphite frame&lt;/li&gt;&lt;li&gt;Graphite side plates&lt;/li&gt;&lt;li&gt;Color: black with red and silver accents&lt;/li&gt;&lt;/ul&gt;",
+        "brandName": "Abu Garcia",
+        "thumbnailImage": "http://i.walmartimages.com/i/p/00/03/62/82/92/0003628292156_100X100.jpg",
+        "mediumImage": "http://i.walmartimages.com/i/p/00/03/62/82/92/0003628292156_180X180.jpg",
+        "largeImage": "http://i.walmartimages.com/i/p/00/03/62/82/92/0003628292156_500X500.jpg",
+        "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Fwww.walmart.com%252Fip%252FAbu-Garcia-Black-Max-Reel%252F19716431%253Faffp1%253D%257Capk%257C%2526affilsrc%253Dapi",
+        "ninetySevenCentShipping": false,
+        "standardShipRate": 0,
+        "twoThreeDayShippingRate": 6.97,
+        "overnightShippingRate": 13.97,
+        "marketplace": false,
+        "shipToStore": true,
+        "freeShipToStore": true,
+        "productUrl": "http://c.affil.walmart.com/t/api01?l=http%3A%2F%2Fwww.walmart.com%2Fip%2FAbu-Garcia-Black-Max-Reel%2F19716431%3Faffp1%3D%7Capk%7C%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+        "customerRating": "4.689",
+        "numReviews": 260,
+        "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_7.gif",
+        "bestMarketplacePrice": {
+            "price": 59.79,
+            "sellerInfo": "OpticsPlanet",
+            "standardShipRate": 0,
+            "availableOnline": true,
+            "clearance": false
+        },
+        "categoryNode": "4125_546956_111667",
+        "bundle": false,
+        "preOrder": false,
+        "stock": "Available",
+        "addToCartUrl": "http://c.affil.walmart.com/t/api01?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D19716431%7C1%26affp1%3D%7Capk%7C%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+        "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D19716431%257C1%2526affp1%253D%257Capk%257C%2526affilsrc%253Dapi",
+        "freeShippingOver50Dollars": true,
+        "availableOnline": true
     },
     {
         "itemId": 42391766,
