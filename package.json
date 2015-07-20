@@ -1,0 +1,24 @@
+{
+  "name": "walmart",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanielBarnes/walmart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielBarnes/walmart/issues"
+  },
+  "homepage": "https://github.com/DanielBarnes/walmart",
+  "dependencies": {
+    "hapi": "^8.8.0",
+    "async": "^1.4.0",
+    "request": "^2.59.0"
+  }
+}
